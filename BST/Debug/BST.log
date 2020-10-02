@@ -1,0 +1,21 @@
+﻿  BST.cpp
+C:\Users\franc\source\repos\BST\BST\BSTClass.cpp(14,14): error C2248: 'Node<T>::left': cannot access private member declared in class 'Node<T>'
+          with
+          [
+              T=int
+          ]
+C:\Users\franc\source\repos\BST\BST\node.h(21): message : see declaration of 'Node<T>::left'
+          with
+          [
+              T=int
+          ]
+C:\Users\franc\source\repos\BST\BST\BSTClass.h(14): message : see declaration of 'Node<T>'
+          with
+          [
+              T=int
+          ]
+C:\Users\franc\source\repos\BST\BST\BSTClass.cpp(12): message : while compiling class template member function 'BST<int>::~BST(void)'
+C:\Users\franc\source\repos\BST\BST\BST.cpp(8): message : see reference to function template instantiation 'BST<int>::~BST(void)' being compiled
+C:\Users\franc\source\repos\BST\BST\BST.cpp(8): message : see reference to class template instantiation 'BST<int>' being compiled
+  BSTClass.cpp
+  Generating Code...
